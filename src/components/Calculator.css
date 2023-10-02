@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the calculator container */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Style for the inner container */
+.container {
+  background-color: #a0d0ea;
+  border: 2px solid #52d180;
+  padding: 15px;
+}
+
+/* Style for the display area */
+.display {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #f0faea;
+  text-align: right;
+  font-size: 24px;
+  box-shadow: 0px 3px 0px 0px #80a6ba;
+  color: #6f6e83;
+}
+
+/* Style for the button container */
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each row of buttons */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Style for the buttons */
+button {
+  width: 70px;
+  height: 50px;
+  border: none;
+  background-color: #efefef;
+  color: #6f6e83;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 3px 0px 0px #80a6ba;
+}
+
+/* Style for the 'C' button */
+.btn_buffer {
+  background-color: #9efcfc52;
+}
+
+/* Style for the operator buttons */
+.btn_operators {
+  background-color: #93f2ffa1;
+}
